@@ -5,8 +5,8 @@ Sistema simples de tickets usando Codeigniter - PHP 5.6
 
 O que tem no projeto?
 
-Cadastro
-Recuperar Senha
+Cadastro / Recuperar Senha / Pagina de Login / Pagina Administrativa
+
 Pagina de Login - Usuario / Admin. 
 
 Url exemplo Login usuario: http://localhost/login

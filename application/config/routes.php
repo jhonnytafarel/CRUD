@@ -41,22 +41,8 @@
 $route['default_controller'] = "login";
 $route['404_override'] = '';
 
-$route['patrocinador/(:any)'] = 'cadastrar/p/$1';
-$route['redirecionar/(:num)'] = 'conta/redirecionar/$1';
-$route['cotas'] = 'conta/cotas';
-$route['cotas/comprar'] = 'conta/comprar_cotas';
-$route['faturas'] = 'conta/faturas';
-$route['faturas/pagar/(:num)'] = 'conta/pagar_fatura/$1';
-$route['faturas/cancelar/(:num)'] = 'conta/cancelar_fatura/$1';
-$route['extrato'] = 'conta/extrato';
-$route['transferir'] = 'conta/transferir';
-$route['pagar/saldo'] = 'conta/pagar_saldo';
-$route['comprovante'] = 'conta/comprovante';
-$route['saque'] = 'conta/saque';
-$route['saque/solicitar'] = 'conta/solicitar_saque';
-$route['usuario/configuracoes'] = 'conta/configuracoes';
+
 $route['usuario/logout'] = 'conta/sair';
-$route['indicados'] = 'conta/indicados';
 $route['tickets'] = 'conta/tickets';
 $route['tickets/novo'] = 'conta/novo_ticket';
 $route['tickets/visualizar/(:num)'] = 'conta/visualizar_ticket/$1';
@@ -66,23 +52,13 @@ $route['tickets/visualizar/(:num)'] = 'conta/visualizar_ticket/$1';
 $route['ctadmin/usuarios/visualizar/(:num)'] = 'ctadmin/visualizar_usuario/$1';
 $route['ctadmin/usuarios/editar/(:num)'] = 'ctadmin/editar_usuario/$1';
 $route['ctadmin/usuarios/excluir/(:num)'] = 'ctadmin/excluir_usuario/$1';
-$route['ctadmin/faturas/liberar/(:num)'] = 'ctadmin/liberar_fatura/$1';
-$route['ctadmin/saques/visualizar/(:num)'] = 'ctadmin/visualizar_saque/$1';
-$route['ctadmin/saques/pago/(:num)'] = 'ctadmin/pagar_saque/$1';
-$route['ctadmin/saques/estornar/(:num)'] = 'ctadmin/estornar_saque/$1';
-$route['ctadmin/anuncios/visualizar/(:num)'] = 'ctadmin/visualizar_anuncio/$1';
-$route['ctadmin/anuncios/desativar/(:num)'] = 'ctadmin/desativar_anuncio/$1';
-$route['ctadmin/anuncios/excluir/(:num)'] = 'ctadmin/excluir_anuncio/$1';
-$route['ctadmin/anuncios/aprovar/(:num)'] = 'ctadmin/aprovar_anuncio/$1';
 $route['ctadmin/tickets/visualizar/(:num)'] = 'ctadmin/visualizar_ticket/$1';
 $route['ctadmin/tickets/fechar/(:num)'] = 'ctadmin/fechar_ticket/$1';
 $route['ctadmin/tickets/reabrir/(:num)'] = 'ctadmin/reabrir_ticket/$1';
 $route['ctadmin/users/novo'] = 'ctadmin/novo_user_admin';
 $route['ctadmin/users/editar/(:num)'] = 'ctadmin/editar_user_admin/$1';
 $route['ctadmin/users/excluir/(:num)'] = 'ctadmin/excluir_user_admin/$1';
-$route['ctadmin/bancario/nova'] = 'ctadmin/nova_conta_bancaria';
-$route['ctadmin/bancario/editar/(:num)'] = 'ctadmin/editar_conta_bancaria/$1';
-$route['ctadmin/bancario/excluir/(:num)'] = 'ctadmin/excluir_conta_bancaria/$1';
+
 
 
 /* End of file routes.php */

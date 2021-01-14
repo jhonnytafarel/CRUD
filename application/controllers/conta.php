@@ -50,6 +50,15 @@ class Conta extends CI_Controller {
         $this->load->view('conta/templates/footer');
     }
 
+    public function cep(){
+
+    $data['titulo'] = 'CEP/JSON';
+
+        $this->load->view('conta/templates/header', $data);
+        $this->load->view('conta/cep');
+        $this->load->view('conta/templates/footer');
+    }
+
     public function atualiza_notificacao(){
 	
 	echo $this->conta_model->AtualizaNotificacoes();

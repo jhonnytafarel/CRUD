@@ -171,6 +171,12 @@ check_session();
                     <span class="title">Backoffice</span>
                     </a>
                 </li>
+                <li class="start ">
+                    <a href="<?php echo base_url('cep');?>">
+                    <i class="icon-user"></i>
+                    <span class="title">CEP/JSON</span>
+                    </a>
+                </li>
             </ul>
             <!-- END SIDEBAR MENU -->
         </div>

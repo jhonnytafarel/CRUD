@@ -46,6 +46,7 @@ $route['usuario/logout'] = 'conta/sair';
 $route['tickets'] = 'conta/tickets';
 $route['tickets/novo'] = 'conta/novo_ticket';
 $route['tickets/visualizar/(:num)'] = 'conta/visualizar_ticket/$1';
+$route['cep'] = 'conta/cep';
 
 /****** ADMINISTRADOR ******/
 
